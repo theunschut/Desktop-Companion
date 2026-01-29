@@ -1,0 +1,17 @@
+#ifndef WIFI_CONFIG_H
+#define WIFI_CONFIG_H
+
+// WiFi credentials - Copy this file to WiFiConfig.h and update with your credentials
+#define WIFI_SSID "YourWiFiSSID"
+#define WIFI_PASSWORD "YourWiFiPassword"
+
+// Optional: Static IP configuration
+#define USE_STATIC_IP false
+#define STATIC_IP     IPAddress(192, 168, 1, 100)
+#define GATEWAY       IPAddress(192, 168, 1, 1)
+#define SUBNET        IPAddress(255, 255, 255, 0)
+
+// Server configuration
+#define HTTP_PORT 80
+
+#endif
