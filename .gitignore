@@ -1,0 +1,47 @@
+# Claude Code
+.claude/
+
+# Arduino build artifacts
+build/
+*.hex
+*.elf
+*.bin
+
+# Arduino IDE
+.DS_Store
+*.sw?
+*~
+*.tmp
+*.bak
+
+# Platform-specific
+Thumbs.db
+.directory
+
+# VSCode
+.vscode/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Libraries (uncomment if you want to exclude them)
+# libraries/
+
+# Sketch data folder (if used for file uploads)
+# data/
+
+# Python (if using any automation scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Purchased/Licensed assets (not for public distribution)
+Resources/PolyhedralDiceSet/
