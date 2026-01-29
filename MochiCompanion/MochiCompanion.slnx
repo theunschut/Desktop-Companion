@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/MochiCompanion.Application/MochiCompanion.Application.csproj" />
+    <Project Path="src/Core/MochiCompanion.Domain/MochiCompanion.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/MochiCompanion.Infrastructure/MochiCompanion.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/Presentation/MochiCompanion.Service/MochiCompanion.Service.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MochiCompanion.IntegrationTests/MochiCompanion.IntegrationTests.csproj" />
+    <Project Path="tests/MochiCompanion.UnitTests/MochiCompanion.UnitTests.csproj" />
+  </Folder>
+</Solution>

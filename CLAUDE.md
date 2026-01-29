@@ -446,11 +446,16 @@ Inspired by the [Mini Mochi Robot](https://www.hackster.io/news/this-tiny-robot-
 
 **Current Focus**: Build core facial expressions and animations with display only!
 
+## Related Documentation
+
+- **[WINDOWS_SERVICE_PLAN.md](WINDOWS_SERVICE_PLAN.md)** - Complete plan for .NET Windows service integration (PC-to-Mochi communication)
+
 ## Project Status
 
 ### Current Phase
 ✅ **Phase 1 COMPLETE** - Display tested and working perfectly!
-⏳ **Phase 2 NEXT** - Design and display basic Mochi face
+✅ **Phase 2 COMPLETE** - RoboEyes implementation (TFT-optimized, matches original API)
+⏳ **Phase 3 NEXT** - Windows Service integration (optional)
 
 **Project Style**: Mochi-style reactive companion (inspired by Mini Mochi Robot)
 
